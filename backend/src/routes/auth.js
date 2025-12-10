@@ -1,0 +1,18 @@
+import express from 'express'
+
+const router = express.Router()
+
+// Placeholder routes for authentication
+router.post('/register', (req, res) => {
+  res.json({ message: 'Register endpoint - coming soon' })
+})
+
+router.post('/login', (req, res) => {
+  res.json({ message: 'Login endpoint - coming soon' })
+})
+
+router.post('/logout', (req, res) => {
+  res.json({ message: 'Logout endpoint - coming soon' })
+})
+
+export default router
